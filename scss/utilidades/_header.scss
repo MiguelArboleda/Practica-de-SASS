@@ -1,0 +1,12 @@
+.header{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to top,#4f4f4f,#f8cde1 );
+    height: 15vh;
+    .titulo{
+        color: #ffdbdb;
+        font-family: $cursive;
+        font-weight: lighter;
+        font-size: 65px;
+    }
+}

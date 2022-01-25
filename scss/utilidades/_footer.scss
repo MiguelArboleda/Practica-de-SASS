@@ -1,0 +1,23 @@
+.footer{
+    background-image: linear-gradient(to top,#f8cde1, #4f4f4f);
+    height: 10vh;
+    .cuestion__finales{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        .cuestion__final{
+            display: inline-block;
+            font-size: 20px;
+            font-style: italic;
+            color: $color-titulos;
+            padding: 10px 20px;
+        }
+    }
+    .final{
+        display: block;
+        text-align: center;
+        font-size: 20px;
+        font-style: italic;
+        color: $color-titulos;
+    }
+}

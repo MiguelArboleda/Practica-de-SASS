@@ -1,0 +1,37 @@
+.maine{
+    background-color: #4f4f4f;
+    height: 75vh;
+    .contenedor{
+       margin-left: 3%;
+       margin-right: 3%;
+       .titulo1{
+           font-size: 32px;
+           font-weight: lighter;
+           text-align: center;
+           color: $color-titulos;
+       }
+       .parrafo{
+           display: flex;
+           text-align: center;
+           font-size: 20px;
+           padding-left: 13%;
+           padding-right: 13%;
+           color: $color-texto;
+       }
+       .titulo2{
+           text-align: left;
+           font-size: 30px;
+           font-weight: lighter;
+           color:$color-titulos;
+       }
+       .listaNormal{
+           padding-left: 4%;
+           padding-right: 4%;
+           list-style: decimal;
+       }
+       .lista1{
+           color: $color-texto;
+           font-size: 18px;
+       }
+    }
+}
